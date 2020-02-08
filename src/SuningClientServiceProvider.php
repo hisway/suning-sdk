@@ -74,7 +74,7 @@ class SuningClientServiceProvider extends ServiceProvider
             $factory = $app['suningclient.factory'];
             return new SuningClientManager($config, $factory);
         });
-        $app->alias('suningclient', 'Hisway\SuningClient\TopClientManager');
+        $app->alias('suningclient', 'Hisway\SuningClient\SuningClientManager');
     }
 
     /**
