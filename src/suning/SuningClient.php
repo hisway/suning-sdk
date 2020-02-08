@@ -52,12 +52,12 @@ class SuningClient
     /**
      * 构造方法
      *
-     * @param $serverUrl 服务调用地址
-     * @param $appKey 应用访问key
-     * @param $appSecret appKey对应密钥
-     * @param $format 请求、响应格式(xml、json)
+     * @param string $serverUrl 服务调用地址
+     * @param string $appKey 应用访问key
+     * @param string $appSecret appKey对应密钥
+     * @param string $format 请求、响应格式(xml、json)
      */
-    function __construct($serverUrl, $appKey, $appSecret, $format)
+    function __construct($serverUrl = '', $appKey = '', $appSecret = '', $format = '')
     {
         $this->serverUrl = $serverUrl;
         $this->appKey = $appKey;
