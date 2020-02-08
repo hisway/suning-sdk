@@ -15,10 +15,9 @@
       "email": "hisway@qq.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=7.1.3",
-    "graham-campbell/manager": "^4.4@dev",
+    "graham-campbell/manager": "^4.1",
     "ext-curl": "*",
     "ext-dom": "*"
   },
