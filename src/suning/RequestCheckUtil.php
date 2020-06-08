@@ -1,5 +1,5 @@
 ﻿<?php
-namespace SuningClient\request;
+namespace SuningClient;
 
 use Exception;
 

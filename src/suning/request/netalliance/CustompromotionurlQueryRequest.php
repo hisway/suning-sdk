@@ -2,8 +2,8 @@
 
 namespace SuningClient\request\netalliance;
 
-use SuningClient\request\RequestCheckUtil;
-use SuningClient\request\SuningRequest;
+use SuningClient\RequestCheckUtil;
+use SuningClient\SuningRequest;
 
 /**
  * 苏宁开放平台接口 -

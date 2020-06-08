@@ -1,5 +1,5 @@
 <?php
-namespace SuningClient\request;
+namespace SuningClient;
 
 /**
  * 苏宁开放平台接口 - 接口调用请求抽象类
