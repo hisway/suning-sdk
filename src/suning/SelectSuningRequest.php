@@ -2,8 +2,6 @@
 
 namespace SuningClient;
 
-use SuningClient\RequestCheckUtil;
-
 /**
  * 苏宁开放平台接口 - 查询业务类基类
  *
